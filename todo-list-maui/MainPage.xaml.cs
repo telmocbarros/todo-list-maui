@@ -1,9 +1,8 @@
-﻿namespace todo_list_maui
+namespace todo_list_maui
 {
     public partial class MainPage : ContentPage
     {
         int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
@@ -21,5 +20,4 @@
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
-
 }
